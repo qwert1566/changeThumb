@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "썸네일 변경",
+    "version": "1.0",
+    "description": "자신의 작품에 움직이는 썸네일을 넣어서 생동감을 더해보세요",
+    "permissions": ["scripting", "tabs"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": ["*://*.playentry.org/ws/*"]
+}
